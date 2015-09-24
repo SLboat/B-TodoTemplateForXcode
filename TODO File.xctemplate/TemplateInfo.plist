@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowedTypes</key>
+	<array>
+		<string>net.daringfireball.markdown</string>
+	</array>
+	<key>BuildableType</key>
+	<string>None</string>
+	<key>DefaultCompletionName</key>
+	<string>TODO.MD</string>
+	<key>Description</key>
+	<string>TODO文件,描述你将要还要以及要做什么</string>
+	<key>Name</key>
+	<string>Todo</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.markdown</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+		<string>com.apple.platform.macosx</string>
+	</array>
+	<key>SortOrder</key>
+	<string>1</string>
+	<key>Summary</key>
+	<string>A Todo File For Project</string>
+</dict>
+</plist>

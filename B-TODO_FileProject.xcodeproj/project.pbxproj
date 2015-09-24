@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		A61CCD6D1B9AFD7A00367C7F /* TODO.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TODO.md; sourceTree = "<group>"; };
+		A65192471B87FAB70067E825 /* ___FILEBASENAME___.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "___FILEBASENAME___.md"; sourceTree = "<group>"; };
+		A65192481B87FAB70067E825 /* TemplateIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TemplateIcon.icns; sourceTree = "<group>"; };
+		A65192491B87FAB70067E825 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		A68CE02B1BB2316A0086E9AA /* Install.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Install.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A68CE0281BB2316A0086E9AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A610C7201BA7CF6A00B8517A /* 模板文件 */ = {
+			isa = PBXGroup;
+			children = (
+				A65192461B87FAB70067E825 /* TODO File.xctemplate */,
+			);
+			name = "模板文件";
+			sourceTree = "<group>";
+		};
+		A610C7211BA7CF7200B8517A /* 待办 */ = {
+			isa = PBXGroup;
+			children = (
+				A61CCD6D1B9AFD7A00367C7F /* TODO.md */,
+			);
+			name = "待办";
+			sourceTree = "<group>";
+		};
+		A65192211B87F7B70067E825 = {
+			isa = PBXGroup;
+			children = (
+				A610C7201BA7CF6A00B8517A /* 模板文件 */,
+				A610C7211BA7CF7200B8517A /* 待办 */,
+				A65192331B87F9A10067E825 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A65192331B87F9A10067E825 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A68CE02B1BB2316A0086E9AA /* Install.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A65192461B87FAB70067E825 /* TODO File.xctemplate */ = {
+			isa = PBXGroup;
+			children = (
+				A65192471B87FAB70067E825 /* ___FILEBASENAME___.md */,
+				A65192481B87FAB70067E825 /* TemplateIcon.icns */,
+				A65192491B87FAB70067E825 /* TemplateInfo.plist */,
+			);
+			path = "TODO File.xctemplate";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A68CE02A1BB2316A0086E9AA /* Install */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A68CE0391BB2316A0086E9AA /* Build configuration list for PBXNativeTarget "Install" */;
+			buildPhases = (
+				A68CE0271BB2316A0086E9AA /* Sources */,
+				A68CE0281BB2316A0086E9AA /* Frameworks */,
+				A68CE0291BB2316A0086E9AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Install;
+			productName = Install;
+			productReference = A68CE02B1BB2316A0086E9AA /* Install.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A65192221B87F7B70067E825 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				TargetAttributes = {
+					A68CE02A1BB2316A0086E9AA = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = A65192251B87F7B70067E825 /* Build configuration list for PBXProject "B-TODO_FileProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A65192211B87F7B70067E825;
+			productRefGroup = A65192331B87F9A10067E825 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A68CE02A1BB2316A0086E9AA /* Install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A68CE0291BB2316A0086E9AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A68CE0271BB2316A0086E9AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A65192261B87F7B70067E825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		A65192271B87F7B70067E825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		A68CE03A1BB2316A0086E9AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Install/Info.plist;
+				INSTALL_PATH = "~/Library/Developer/Xcode/Templates/SLboat/TODO File.xctemplate/";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sl088.ButterFly.Install;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A68CE03B1BB2316A0086E9AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Install/Info.plist;
+				INSTALL_PATH = "~/Library/Developer/Xcode/Templates/SLboat/TODO File.xctemplate/";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sl088.ButterFly.Install;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A65192251B87F7B70067E825 /* Build configuration list for PBXProject "B-TODO_FileProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65192261B87F7B70067E825 /* Debug */,
+				A65192271B87F7B70067E825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A68CE0391BB2316A0086E9AA /* Build configuration list for PBXNativeTarget "Install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A68CE03A1BB2316A0086E9AA /* Debug */,
+				A68CE03B1BB2316A0086E9AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A65192221B87F7B70067E825 /* Project object */;
+}
